@@ -11,6 +11,11 @@
 $(document).ready(function() {
 	/*----- slideshow ---*/
 /* imgshow banner*/	
+// Initialize the slideshow
+$('#imageShow li:first').addClass('current');
+$('#imageShow li').css('opacity', 0);
+$('#imageShow li.current').css('opacity', 1);
+
 setInterval('imageRotator()', 3000);
 $('.dropdown').each(function () {
 $(this).parent().eq(0).hover(function () {
@@ -161,7 +166,7 @@ $('.dropdown:eq(0)', this).hide();
                   <div> <br> </div>
                   <img src="photos/xuan2025/9.jpg" alt="xuan" width="1000" height="666">
                   <div> <br> </div>
-                  <img src="photos/xuan2025/10.jpg" alt="xuan" width="1000" height="666 ">
+                  <img src="photos/xuan2025/10.jpg" alt="xuan" width="1000" height="666">
                   <div> <br> </div>
                   <img src="photos/xuan2025/11.jpg" alt="xuan" width="1000" height="666">
                   <div> <br> </div>
