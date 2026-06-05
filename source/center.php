@@ -11,8 +11,8 @@
                     <div align= "center"> <p style="font-size : 22px">  <b>Thư Mời  </b></p></div>
                     <div align= "center"> <p style="font-size : 22px">  <b>Hội Ái Hữu Bạc Liêu Miền Bắc California</b></p></div>
                     <div> <br> </div>
-                    <div align= "center"><p style="font-size : 18px">Trân trọng kính mời Quí Đồng Hương và thân hữu vui lòng đến tham dự </p></div>
-                    <div align= "center"><p style="font-size : 18px">Buổi Tiệc Tân Niên Kỷ Niệm 40 năm thành lập hội được tổ chức tại </p></div>
+                    <div align= "center"><p style="font-size : 18px"> Kính thưa Quý Đồng Hương và Thân Hữu Nhằm khuyến khích và nâng đỡ con em hiếu học, </p></div>
+                    <div align= "center"><p style="font-size : 18px"> năm nay Hội sẽ tổ chức Lễ Phát Thưởng và Hợp Mắt Picnic hàng năm </p></div>
                     <div align= "center"><p style="font-size : 18px">Nhà Hàng Dynasty (trên lầu)</p></div>
                     <div align= "center"> <p style="font-size : 18px">Địa điểm: 1001 Story Road, San Jose, CA 95122  </p></div>
                     <div align= "center"> <p style="font-size : 18px">Tel. (408) 286-6668 </p></div>
