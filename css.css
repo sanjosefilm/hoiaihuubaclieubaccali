@@ -1,5 +1,8 @@
 @charset "utf-8";
 /* CSS Document */
+*, *::before, *::after {
+	box-sizing: border-box;
+}
 body,td,th {
 	font-family: Verdana, Geneva, sans-serif;
 	font-size: 12px;
@@ -7,16 +10,14 @@ body,td,th {
 }
 body {
 	background-color:#114602;
-	margin-left: 0px;
-	margin-top: 0px;
-	margin-right: 0px;
-	margin-bottom: 0px;
+	margin: 0;
+	padding: 0;
 }
 
 #site-wrapper{
 	margin:0px auto;
-	float:center;
 	width:1171px;
+	max-width:100%;
 	background:#f0fed6;
 	box-shadow: 1px 1px 5px #000;
 }
@@ -319,7 +320,7 @@ img {
 }
 #bottom{
 	background:#032c00;
-	height:25PX;
+	min-height:25px;
 	color:#999;
 	text-align:center;
 	padding:25px;
@@ -334,4 +335,30 @@ img {
 }
 .text{
 	text-align:justify;
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+	#site-wrapper { width: 100%; }
+	#imgShow { width: calc(100% - 160px) !important; }
+	#imgShow img, #imageShow img { width: 100% !important; }
+	#center { width: calc(100% - 460px); }
+}
+
+@media (max-width: 900px) {
+	#site-wrapper { width: 100%; }
+	#left, #right { display: none; }
+	#center { width: 100%; margin: 0; }
+	#imgShow { width: calc(100% - 120px) !important; }
+	#menu ul li { padding-left: 10px; padding-right: 10px; }
+	#menu ul li a { font-size: 13px; }
+}
+
+@media (max-width: 600px) {
+	#logo .left { display: none; }
+	#imgShow { width: 100% !important; padding-left: 0 !important; }
+	#menu ul { white-space: nowrap; overflow-x: auto; }
+	#menu ul li a { font-size: 12px; }
+	#center { font-size: 14px; }
+	#center img { width: 100% !important; height: auto !important; }
 }
