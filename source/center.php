@@ -8,6 +8,7 @@
          <div id="blog_header">
              <div class="title_left">TIN TỨC SINH HOẠT</div>
                		<div> <br> </div>
+			 		<div> <br> </div>
                     <div align= "center"> <p style="font-size : 22px">  <b>Thư Mời  </b></p></div>
                     <div align= "center"> <p style="font-size : 22px">  <b>Hội Ái Hữu Bạc Liêu Miền Bắc California</b></p></div>
                     <div> <br> </div>
