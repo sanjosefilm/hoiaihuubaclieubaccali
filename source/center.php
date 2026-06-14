@@ -1,6 +1,3 @@
-<div> <br> </div>
-<div id="top-news">
-
 </div>
 </div>
        <div id="blog">
