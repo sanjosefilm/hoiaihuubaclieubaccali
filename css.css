@@ -15,11 +15,11 @@ body {
 }
 
 #site-wrapper{
-	margin:0px auto;
-	width:1171px;
-	max-width:100%;
-	background:#f0fed6;
-	box-shadow: 1px 1px 5px #000;
+    width:100vw;
+    max-width:none;
+    margin:0;
+    background:#f0fed6;
+    box-shadow:1px 1px 5px #000;
 }
 
 #head{background:#f0fed6;}
@@ -48,22 +48,20 @@ body {
 	background:url(images/bg_line.jpg) repeat;
 }
 #content_center{
-background:#fff;
-padding:5px;}
+    display:flex;
+    gap:10px;
+}
+
 #left{
-	width:200px;
+    flex:0 0 220px;
 }
+
 #center{
-	width:740px;
-	margin-left:10px;
-	margin-right:10px;
+    flex:1;
 }
-#imags_baclieu{
-	border:#00ad01 solid 1px;
-	text-align:justify;
-}
+
 #right{
-	width:250px;
+    flex:0 0 280px;
 }
 .title_left{
 	background:#1e7703;
@@ -111,10 +109,10 @@ img {
 	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-#imageShow img {
-	width: 970px;
-	height: 150px;
-	object-fit: cover;
+#imageShow img{
+    width:100%;
+    height:150px;
+    object-fit:cover;
 }
 
 #blog_content .title{
@@ -173,7 +171,7 @@ img {
 
 /* Show banner */
 #imgShow{
-	width: 970px;
+	width:calc(100% - 150px);
 	height: 150px;
 	overflow: hidden;
 }
