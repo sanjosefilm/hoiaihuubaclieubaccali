@@ -413,3 +413,27 @@ img {
     border:2px solid #016401;
     box-sizing:border-box;
 }
+/* Banner slideshow */
+#imgShow {
+    flex: 1;
+    height: auto !important;
+}
+
+#imageShow {
+    width: 100%;
+    height: auto !important;
+    min-height: 320px; /* Increase as needed */
+}
+
+#imageShow li {
+    width: 100%;
+    height: auto !important;
+}
+
+#imageShow img {
+    width: 100%;
+    height: auto !important;
+    max-height: none !important;
+    display: block;
+    border: 2px solid #016401;
+}
