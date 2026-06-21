@@ -23,7 +23,18 @@ body {
 }
 
 #head{background:#f0fed6;}
-#logo{}
+#logo{
+	width:100%;
+    display:flex;
+    align-items:center;
+    padding:5px;
+}
+#logo .left img{
+    display:block;
+    width:auto;
+    height:auto;
+    max-width:180px; /* adjust if logo too large */
+}
 #top-news{
 	border:#c9ffcb solid 1px;
 	padding:5px;
@@ -171,27 +182,31 @@ img {
 
 /* Show banner */
 #imgShow{
-	width:calc(100% - 150px);
-	height: 150px;
-	overflow: hidden;
+    flex:1;
+    margin-left:20px;
+    overflow:hidden;
+    position:relative;
 }
 #imageShow{
-	position:relative;
-	list-style:none;
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	height: 100%;
+    margin:0;
+    padding:0;
+    list-style:none;
+    position:relative;
+    width:100%;
+    height:250px;
 }
 #imageShow li{
-	position:absolute;
-	top:2px;
-	left:0px;
-	z-index:0;
-	opacity: 0;
-	transition: opacity 2s ease-in-out;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:250px;
+    display:none;
 }
 
+#imageShow li.current{
+    display:block;
+}
 .list_carousel {
 
 	border-left: 20px solid #ccc;
