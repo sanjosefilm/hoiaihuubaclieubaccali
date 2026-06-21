@@ -360,3 +360,41 @@ img {
 	#center { font-size: 14px; }
 	#center img { width: 100% !important; height: auto !important; }
 }
+/* Banner container */
+#imgShow{
+    width:100%;
+    max-width:100%;
+    padding:5px 0 0 0;
+    overflow:hidden;
+    position:relative;
+}
+
+/* Slideshow list */
+#imageShow{
+    margin:0;
+    padding:0;
+    list-style:none;
+    width:100%;
+    height:auto;
+    position:relative;
+}
+
+/* Each slide */
+#imageShow li{
+    width:100%;
+    display:none;
+}
+
+/* Active slide */
+#imageShow li.current{
+    display:block;
+}
+
+/* Banner image */
+#imageShow img{
+    width:100%;
+    height:auto;
+    display:block;
+    border:2px solid #016401;
+    box-sizing:border-box;
+}
