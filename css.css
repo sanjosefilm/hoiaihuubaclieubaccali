@@ -332,11 +332,13 @@ img {
 	background:url(images/bg_line.jpg) #e6e6e6 top repeat-x;
 }
 #bottom{
-	background:#032c00;
-	min-height:25px;
-	color:#999;
-	text-align:center;
-	padding:25px;
+    clear: both;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background: #114602;
+    color: #fff;
+    margin-top: 20px;
 }
 .bg_title{
 	padding:5px;
