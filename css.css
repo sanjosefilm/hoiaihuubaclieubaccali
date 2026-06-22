@@ -72,7 +72,7 @@ body {
 }
 
 #right{
-    flex:0 0 280px;
+    display:none;
 }
 .title_left{
 	background:#1e7703;
@@ -334,11 +334,12 @@ img {
 #bottom{
     clear: both;
     width: 100%;
+    display: block;
     text-align: center;
     padding: 10px 0;
-    background: #114602;
-    color: #fff;
     margin-top: 20px;
+    background: #114602;
+    color: #ffffff;
 }
 .bg_title{
 	padding:5px;
